@@ -1,0 +1,33 @@
+{
+  "name": "tailwindcss-starter",
+  "version": "0.0.1",
+  "description": "An up-to-date Tailwind boilerplate",
+  "main": "tailwind.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "prod": "cross-env NODE_ENV=production webpack --no-progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reached/tailwindcss-starter.git"
+  },
+  "author": "Reached",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reached/tailwindcss-starter/issues"
+  },
+  "homepage": "https://github.com/Reached/tailwindcss-starter#readme",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "postcss": "^7.0.14",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "tailwindcss": "^0.7.4",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
