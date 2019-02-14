@@ -4,9 +4,329 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
-<body>
-<div class="min-h-screen flex items-center justify-center">
-    <h1 class="text-5xl text-blue-darkest font-sans">Seems to work 😎</h1>
+<body class="min-h-screen font-sans">
+<div class="flex">
+    <aside class="bg-indigo-dark flex flex-col min-h-screen w-64 shadow-lg border-r mr-4">
+        <div class="flex-1">
+            <h1 class="text-white px-4 py-8 tracking-wide">Rentaway</h1>
+
+            <div class="flex items-center px-4 pb-8">
+                <img class="mr-4 rounded-full h-12 w-12" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NjYzMzE1MV5BMl5BanBnXkFtZTgwNTA4NDY4OTE@._V1_UX172_CR0,0,172,256_AL_.jpg">
+                <div class="text-white">
+                    <p class="font-semibold mb-1">Casper Sørensen</p>
+                    <p class="text-sm">Landlord</p>
+                </div>
+            </div>
+
+            <h2 class="text-base pl-4 mb-4 text-indigo-lighter">Administration</h2>
+
+            <nav class="mb-8">
+                <ul class="list-reset">
+                    <!-- ACTIVE STATE HERE -->
+                    <li class="border-l-4 text-white transition border-white hover:border-white">
+                        <a class="px-4 py-3 text-white block no-underline" href="#">My listings</a>
+                    </li>
+                    <li class="border-l-4 pr-4 text-white transition border-transparent flex justify-between items-center hover:border-white">
+                        <a class="px-4 py-3 text-white block no-underline" href="#">Applications</a>
+                        <span class="h-6 w-6 rounded-full text-xs flex justify-center items-center text-white bg-indigo-darker">2</span>
+                    </li>
+                    <li class="border-l-4 text-white transition border-transparent hover:border-white">
+                        <a class="px-4 py-3 text-white block no-underline" href="#">Invitations</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <h2 class="text-base pl-4 mb-4 text-indigo-lighter">Other</h2>
+
+            <nav>
+                <ul class="list-reset">
+                    <li class="border-l-4 text-white transition border-transparent hover:border-white">
+                        <a class="px-4 py-3 text-white block no-underline" href="#">All listings</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="pb-16">
+            <h2 class="text-base pl-4 mb-4 text-indigo-lighter">Language</h2>
+            <nav>
+                <ul class="list-reset">
+                    <li class="border-l-4 border-transparent text-white flex">
+                        <a class="px-4 py-3 text-white block no-underline" href="#">English</a>
+                        <a class="px-4 py-3 text-white block no-underline opacity-50" href="#">Danish</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <aside class="bg-blue-darkest flex flex-col min-h-screen w-32 shadow-lg border-r mr-4">
+        <div class="flex-1">
+            <div class="px-4 py-16 flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 117 117">
+                    <defs>
+                        <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#ff5858"/>
+                            <stop offset="1" stop-color="#ff9d00"/>
+                        </radialGradient>
+                    </defs>
+                    <g id="Group_2" data-name="Group 2" transform="translate(-669 -76)">
+                        <path id="Subtraction_1" data-name="Subtraction 1" d="M58.5,117a58.227,58.227,0,0,1-32.708-9.991A58.67,58.67,0,0,1,4.6,81.271,58.424,58.424,0,0,1,9.991,25.792,58.67,58.67,0,0,1,35.729,4.6,58.424,58.424,0,0,1,91.208,9.991,58.67,58.67,0,0,1,112.4,35.729a58.424,58.424,0,0,1-5.394,55.479A58.67,58.67,0,0,1,81.271,112.4,58.135,58.135,0,0,1,58.5,117Zm0-96a37.383,37.383,0,1,0,14.6,2.947A37.266,37.266,0,0,0,58.5,21Z" transform="translate(669 76)" fill="url(#radial-gradient)"/>
+                        <path id="Subtraction_2" data-name="Subtraction 2" d="M22.662,45.324a22.557,22.557,0,0,1-12.671-3.87,22.728,22.728,0,0,1-8.211-9.971A22.633,22.633,0,0,1,3.87,9.991a22.728,22.728,0,0,1,9.971-8.211A22.633,22.633,0,0,1,35.333,3.87a22.728,22.728,0,0,1,8.211,9.971,22.633,22.633,0,0,1-2.089,21.492,22.728,22.728,0,0,1-9.971,8.211A22.521,22.521,0,0,1,22.662,45.324Zm0-37.189a14.482,14.482,0,1,0,5.655,1.142A14.436,14.436,0,0,0,22.662,8.135Z" transform="translate(705 112)" fill="#fff"/>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="flex items-center justify-center">
+                <nav class="w-full">
+                    <ul class="list-reset">
+                        <li>
+                            <!-- ACTIVE STATE HERE -->
+                            <a href="#" class="flex flex-col items-center no-underline bg-white text-blue-darkest opacity-100 px-8 py-4 hover:bg-white hover:opacity-100 hover:text-blue-darkest transition">
+                                <svg class="mb-2 text-white-lighter fill-current" viewBox="0 0 32 32" width="32" height="32"><title>speedometer</title><g class="text-white-lighter stroke-current" class="text-white-lighter fill-current" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" fill="#eff8ff" stroke="#eff8ff"><path class="text-white-lighter stroke-current" data-cap="butt" data-color="color-2" fill="none" stroke-miterlimit="10" d="M12,6.6c1.2-0.5,2.6-0.8,4-0.8 c5.6,0,10.2,4.6,10.2,10.2" stroke-linecap="butt"></path> <path class="text-white-lighter stroke-current" data-cap="butt" data-color="color-2" fill="none" stroke-miterlimit="10" d="M5.8,16c0-1.4,0.3-2.8,0.8-4" stroke-linecap="butt"></path> <line class="text-white-lighter stroke-current" data-color="color-2" fill="none" stroke-miterlimit="10" x1="13.9" y1="13.9" x2="8.4" y2="8.4"></line> <circle class="text-white-lighter stroke-current" fill="none" stroke="#eff8ff" stroke-miterlimit="10" cx="16" cy="16" r="15"></circle> <circle data-color="color-2" fill="none" stroke-miterlimit="10" cx="16" cy="16" r="3"></circle></g></svg>                                Dashboard
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex flex-col items-center no-underline text-white p-8 py-4 opacity-50 hover:bg-white hover:opacity-100 hover:text-blue-darkest transition">
+                                <svg class="mb-2 text-white-lighter fill-current" viewBox="0 0 32 32" width="32" height="32"><title>server rack</title><g class="text-white-lighter fill-current" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" fill="#ffffff" stroke="#ffffff"><rect  class="text-white-lighter stroke-current" x="1" y="3" width="30" height="10" fill="none" stroke="#ffffff" stroke-miterlimit="10"></rect> <line  class="text-white-lighter stroke-current" x1="11" y1="8" x2="6" y2="8" fill="none" stroke-miterlimit="10" data-color="color-2"></line> <circle  class="text-white-lighter fill-current" cx="26" cy="8" r="1" data-cap="butt" data-color="color-2" data-stroke="none" stroke="none" stroke-linecap="butt"></circle> <rect class="text-white-lighter stroke-current" x="1" y="19" width="30" height="10" fill="none" stroke="#ffffff" stroke-miterlimit="10"></rect> <line  class="text-white-lighter stroke-current" x1="11" y1="24" x2="6" y2="24" fill="none" stroke-miterlimit="10" data-color="color-2"></line> <circle  class="text-white-lighter fill-current" cx="26" cy="24" r="1" data-cap="butt" data-color="color-2" data-stroke="none" stroke="none" stroke-linecap="butt"></circle> <line class="text-white-lighter stroke-current" x1="5" y1="13" x2="5" y2="16" fill="none" stroke="#ffffff" stroke-miterlimit="10"></line> <line  class="text-white-lighter stroke-current" x1="27" y1="13" x2="27" y2="16" fill="none" stroke="#ffffff" stroke-miterlimit="10"></line></g></svg>
+                                Servers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex flex-col items-center no-underline text-white p-8 py-4 opacity-50 hover:bg-white hover:opacity-100 hover:text-blue-darkest transition">
+                                <svg class="mb-2 text-white-lighter fill-current" viewBox="0 0 32 32" width="32" height="32"><title>users ww</title><g class="text-white-lighter fill-current" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" fill="#eff8ff" stroke="#eff8ff"><path class="text-white-lighter stroke-current" d="M19.549,23.586l-4.925-1.408a1,1,0,0,1-.716-.82l-.415-2.905S17.219,18.734,19,17a10.229,10.229,0,0,1-2-6.738,6.185,6.185,0,0,0-5.761-6.257A6,6,0,0,0,5,10a10.452,10.452,0,0,1-2,7c1.781,1.734,5.507,1.453,5.507,1.453l-.415,2.905a1,1,0,0,1-.716.82L2.451,23.586A2,2,0,0,0,1,25.509V29H21V25.509A2,2,0,0,0,19.549,23.586Z" fill="none" stroke="#eff8ff" stroke-miterlimit="10"></path> <path class="text-white-lighter stroke-current" d="M25,29h6V23.509a2,2,0,0,0-1.451-1.923l-4.925-1.408a1,1,0,0,1-.716-.82l-.415-2.905S27.219,16.734,29,15a10.229,10.229,0,0,1-2-6.738,6.185,6.185,0,0,0-5.761-6.257,5.973,5.973,0,0,0-3.556,1" fill="none" stroke-miterlimit="10" data-color="color-2"></path></g></svg>                                Users
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex flex-col items-center no-underline text-white p-8 py-4 opacity-50 hover:bg-white hover:opacity-100 hover:text-blue-darkest transition">
+                                <svg class="mb-2 text-white-lighter fill-current" viewBox="0 0 32 32" width="32" height="32"><title>gear</title><g class="text-white-lighter fill-current" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" fill="#eff8ff" stroke="#eff8ff"><circle class="text-white-lighter stroke-current" data-color="color-2" cx="16" cy="16" r="4" fill="none" stroke-miterlimit="10"></circle> <path class="text-white-lighter stroke-current" d="M29.015,13.752l-2.321-.29a10.915,10.915,0,0,0-1.339-3.227l1.438-1.849a2.265,2.265,0,0,0-3.179-3.179L21.765,6.645a10.915,10.915,0,0,0-3.227-1.339l-.29-2.321a2.265,2.265,0,0,0-4.5,0l-.29,2.321a10.915,10.915,0,0,0-3.227,1.339L8.386,5.207A2.265,2.265,0,0,0,5.207,8.386l1.438,1.849a10.915,10.915,0,0,0-1.339,3.227l-2.321.29a2.265,2.265,0,0,0,0,4.5l2.321.29a10.915,10.915,0,0,0,1.339,3.227L5.207,23.614a2.265,2.265,0,0,0,3.179,3.179l1.849-1.438a10.915,10.915,0,0,0,3.227,1.339l.29,2.321a2.265,2.265,0,0,0,4.5,0l.29-2.321a10.915,10.915,0,0,0,3.227-1.339l1.849,1.438a2.265,2.265,0,0,0,3.179-3.179l-1.438-1.849a10.915,10.915,0,0,0,1.339-3.227l2.321-.29a2.265,2.265,0,0,0,0-4.5Z" fill="none" stroke="#eff8ff" stroke-miterlimit="10"></path></g></svg>                                Settings
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div>
+            <nav class="w-full mb-16">
+                <ul class="list-reset">
+                    <li>
+                        <a href="#" class="flex flex-col items-center no-underline text-white p-4 opacity-50 hover:bg-white hover:opacity-100 hover:text-blue-darkest transition">
+                            <img class="mb-2 rounded-full h-8 w-8" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxODQwNTgxN15BMl5BanBnXkFtZTcwMjk2OTY1Ng@@._V1_UY256_CR7,0,172,256_AL_.jpg">
+                            Profile
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+<!--    <aside class="bg-orange-dark flex flex-col min-h-screen w-64 shadow-lg border-r mr-4">-->
+<!--        <div class="flex-1">-->
+<!--            <h1 class="text-white px-4 py-8 tracking-wide">Rentaway</h1>-->
+
+<!--            <div class="flex items-center px-4 pb-8">-->
+<!--                <img class="mr-4 rounded-full h-12 w-12" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NjYzMzE1MV5BMl5BanBnXkFtZTgwNTA4NDY4OTE@._V1_UX172_CR0,0,172,256_AL_.jpg">-->
+<!--                <div class="text-white">-->
+<!--                    <p class="font-semibold mb-1">Casper Sørensen</p>-->
+<!--                    <p class="text-sm">Landlord</p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <h2 class="text-base pl-4 mb-4 text-orange-lighter">Administration</h2>-->
+
+<!--            <nav class="mb-8">-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 text-white transition border-white hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">My listings</a>-->
+<!--                    </li>-->
+<!--                    <li class="border-l-4 pr-4 text-white transition border-transparent flex justify-between items-center hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">Applications</a>-->
+<!--                        <span class="h-6 w-6 rounded-full text-xs flex justify-center items-center text-white bg-orange-darker">2</span>-->
+<!--                    </li>-->
+<!--                    <li class="border-l-4 text-white transition border-transparent hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">Invitations</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+
+<!--            <h2 class="text-base pl-4 mb-4 text-orange-lighter">Other</h2>-->
+
+<!--            <nav>-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 text-white transition border-transparent hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">All listings</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+
+<!--        <div class="pb-16">-->
+<!--            <h2 class="text-base pl-4 mb-4 text-orange-lighter">Language</h2>-->
+<!--            <nav>-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 border-transparent text-white flex">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">English</a>-->
+<!--                        <a class="px-4 py-3 text-white block no-underline opacity-50" href="#">Danish</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+<!--    </aside>-->
+<!--    <aside class="bg-red-dark flex flex-col min-h-screen w-64 shadow-lg border-r mr-4">-->
+<!--        <div class="flex-1">-->
+<!--            <h1 class="text-white px-4 py-8 tracking-wide">Rentaway</h1>-->
+
+<!--            <div class="flex items-center px-4 pb-8">-->
+<!--                <img class="mr-4 rounded-full h-12 w-12" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NjYzMzE1MV5BMl5BanBnXkFtZTgwNTA4NDY4OTE@._V1_UX172_CR0,0,172,256_AL_.jpg">-->
+<!--                <div class="text-white">-->
+<!--                    <p class="font-semibold mb-1">Casper Sørensen</p>-->
+<!--                    <p class="text-sm">Landlord</p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <h2 class="text-base pl-4 mb-4 text-red-lighter">Administration</h2>-->
+
+<!--            <nav class="mb-8">-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 text-white transition border-white hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">My listings</a>-->
+<!--                    </li>-->
+<!--                    <li class="border-l-4 pr-4 text-white transition border-transparent flex justify-between items-center hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">Applications</a>-->
+<!--                        <span class="h-6 w-6 rounded-full text-xs flex justify-center items-center text-white bg-red-darker">2</span>-->
+<!--                    </li>-->
+<!--                    <li class="border-l-4 text-white transition border-transparent hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">Invitations</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+
+<!--            <h2 class="text-base pl-4 mb-4 text-red-lighter">Other</h2>-->
+
+<!--            <nav>-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 text-white transition border-transparent hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">All listings</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+
+<!--        <div class="pb-16">-->
+<!--            <h2 class="text-base pl-4 mb-4 text-red-lighter">Language</h2>-->
+<!--            <nav>-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 border-transparent text-white flex">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">English</a>-->
+<!--                        <a class="px-4 py-3 text-white block no-underline opacity-50" href="#">Danish</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+<!--    </aside>-->
+<!--    <aside class="bg-blue-dark flex flex-col min-h-screen w-64 shadow-lg border-r mr-4">-->
+<!--        <div class="flex-1">-->
+<!--            <h1 class="text-white px-4 py-8 tracking-wide">Rentaway</h1>-->
+
+<!--            <div class="flex items-center px-4 pb-8">-->
+<!--                <img class="mr-4 rounded-full h-12 w-12" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NjYzMzE1MV5BMl5BanBnXkFtZTgwNTA4NDY4OTE@._V1_UX172_CR0,0,172,256_AL_.jpg">-->
+<!--                <div class="text-white">-->
+<!--                    <p class="font-semibold mb-1">Casper Sørensen</p>-->
+<!--                    <p class="text-sm">Landlord</p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <h2 class="text-base pl-4 mb-4 text-blue-lighter">Administration</h2>-->
+
+<!--            <nav class="mb-8">-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 text-white transition border-white hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">My listings</a>-->
+<!--                    </li>-->
+<!--                    <li class="border-l-4 pr-4 text-white transition border-transparent flex justify-between items-center hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">Applications</a>-->
+<!--                        <span class="h-6 w-6 rounded-full text-xs flex justify-center items-center text-white bg-blue-darker">2</span>-->
+<!--                    </li>-->
+<!--                    <li class="border-l-4 text-white transition border-transparent hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">Invitations</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+
+<!--            <h2 class="text-base pl-4 mb-4 text-blue-lighter">Other</h2>-->
+
+<!--            <nav>-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 text-white transition border-transparent hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">All listings</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+
+<!--        <div class="pb-16">-->
+<!--            <h2 class="text-base pl-4 mb-4 text-blue-lighter">Language</h2>-->
+<!--            <nav>-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 border-transparent text-white flex">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">English</a>-->
+<!--                        <a class="px-4 py-3 text-white block no-underline opacity-50" href="#">Danish</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+<!--    </aside>-->
+<!--    <aside class="bg-teal-dark flex flex-col min-h-screen w-64 shadow-lg border-r mr-4">-->
+<!--        <div class="flex-1">-->
+<!--            <h1 class="text-white px-4 py-8 tracking-wide">Rentaway</h1>-->
+
+<!--            <div class="flex items-center px-4 pb-8">-->
+<!--                <img class="mr-4 rounded-full h-12 w-12" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3NjYzMzE1MV5BMl5BanBnXkFtZTgwNTA4NDY4OTE@._V1_UX172_CR0,0,172,256_AL_.jpg">-->
+<!--                <div class="text-white">-->
+<!--                    <p class="font-semibold mb-1">Casper Sørensen</p>-->
+<!--                    <p class="text-sm">Landlord</p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <h2 class="text-base pl-4 mb-4 text-teal-lighter">Administration</h2>-->
+
+<!--            <nav class="mb-8">-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 text-white transition border-white hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">My listings</a>-->
+<!--                    </li>-->
+<!--                    <li class="border-l-4 pr-4 text-white transition border-transparent flex justify-between items-center hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">Applications</a>-->
+<!--                        <span class="h-6 w-6 rounded-full text-xs flex justify-center items-center text-white bg-teal-darker">2</span>-->
+<!--                    </li>-->
+<!--                    <li class="border-l-4 text-white transition border-transparent hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">Invitations</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+
+<!--            <h2 class="text-base pl-4 mb-4 text-teal-lighter">Other</h2>-->
+
+<!--            <nav>-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 text-white transition border-transparent hover:border-white">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">All listings</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+
+<!--        <div class="pb-16">-->
+<!--            <h2 class="text-base pl-4 mb-4 text-teal-lighter">Language</h2>-->
+<!--            <nav>-->
+<!--                <ul class="list-reset">-->
+<!--                    <li class="border-l-4 border-transparent text-white flex">-->
+<!--                        <a class="px-4 py-3 text-white block no-underline" href="#">English</a>-->
+<!--                        <a class="px-4 py-3 text-white block no-underline opacity-50" href="#">Danish</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </nav>-->
+<!--        </div>-->
+<!--    </aside>-->
 </div>
+
 </body>
 </html>
